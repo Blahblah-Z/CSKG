@@ -1,0 +1,58 @@
+intents:
+  relationship:
+    action:
+      RelationshipAction
+    keywords:
+      - 包含
+      - have
+      - 包括
+      - 有
+      - 存在
+      - 需要
+      - 是
+
+  damage:
+    action:
+      DamageAction
+    keywords:
+      - damage
+      - double
+      - half
+      - reduce
+      - increase
+      - addition
+      - add
+      - constant
+
+  property:
+    action:
+      PropertyAction
+    keywords:
+      - monster_type
+      - belongto
+      - type
+      - belong
+
+  evolution:
+    action:
+      EvolutionAction
+    keywords:
+      - evolute
+      - evolution
+      - change
+      - grow
+
+  count:
+    action:
+      CountAction
+    keywords:
+      - count
+      - num
+      - number
+      - amount
+      - many
+
+  drawback:
+    action:
+      DrawbackAction
+    keywords: []
