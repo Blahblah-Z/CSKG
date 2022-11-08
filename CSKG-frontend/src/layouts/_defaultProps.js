@@ -44,6 +44,16 @@ export default {
         path: '/question',
         name: '知识问答',
         icon: <TabletOutlined />,
+        routes: [
+          {
+            path: '/question/user',
+            name: '问答助手',
+          },
+          {
+            path: '/question/teacher',
+            name: '教师解答',
+          }
+        ],
       },
       {
         path: '/statistic',

@@ -3,14 +3,14 @@ import { Space, Button, Input } from 'antd';
 import ProCard from '@ant-design/pro-card';
 import RcResizeObserver from 'rc-resize-observer';
 import './index.less';
-import HttpUtils from '../../utils/HttpUtils';
-import ApiUtils from '../../utils/ApiUtils';
+import HttpUtils from '../../../utils/HttpUtils';
+import ApiUtils from '../../../utils/ApiUtils';
 import Chat from './chat';
 
-class Question extends React.Component {
+class User extends React.Component {
   constructor(props) {
     super(props);
-    console.log('Question');
+    console.log('User Question');
     this.state = {
       responsive: false,
       answer: [],
@@ -39,9 +39,6 @@ class Question extends React.Component {
   }
 
   render() {
-    // const searchCard = (
-
-    // )
 
     return (
       <RcResizeObserver
@@ -53,20 +50,34 @@ class Question extends React.Component {
         }}
       >
         <ProCard
-          className="question"
+          className="userqa"
           title="知识问答"
           split={this.state.responsive ? 'horizontal' : 'vertical'}
           bordered
           gutter={8}
         >
           <ProCard>
-            <ProCard colSpan="50%">
+            <ProCard>
               <Chat />
             </ProCard>
           </ProCard>
+
+          <ProCard>
+
+            <ProCard
+              title = '学习小测验'
+              hoverable
+            >
+
+            </ProCard>
+          </ProCard>
+          
         </ProCard>
+
+        
+
       </RcResizeObserver>
     );
   }
 }
-export default Question;
+export default User;

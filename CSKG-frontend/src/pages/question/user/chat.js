@@ -8,8 +8,8 @@ import {
 import { Avatar, List } from 'antd';
 // import VirtualList from 'rc-virtual-list';
 import icon from '@/assets/user-icon.svg';
-import HttpUtils from '../../utils/HttpUtils';
-import ApiUtils from '../../utils/ApiUtils';
+import HttpUtils from '../../../utils/HttpUtils';
+import ApiUtils from '../../../utils/ApiUtils';
 import './index.less';
 
 class Chat extends React.Component {

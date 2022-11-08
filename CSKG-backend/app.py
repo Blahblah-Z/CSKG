@@ -1,5 +1,3 @@
-from asyncio.windows_events import NULL
-from platform import node
 from flask import Flask,request,g,Response,send_from_directory
 from flask_cors import CORS
 from src.graph import GraphDB

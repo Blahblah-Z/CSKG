@@ -27,7 +27,18 @@ export default defineConfig({
         },
         { path: '/home', component: '@/pages/home/index' },
         { path: '/statistic', component: '@/pages/statistic/index' },
-        { path: '/question', component: '@/pages/question/index' },
+        { path: '/question',
+          routes: [
+            {
+              path: '/question/user',
+              component: '@/pages/question/user/index',
+            },
+            {
+              path: '/question/teacher',
+              component: '@/pages/question/teacher/index',
+            },
+          ],
+        },
       ],
     },
   ],
