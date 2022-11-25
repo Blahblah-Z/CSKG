@@ -25,19 +25,19 @@ class Statistic extends React.Component {
       const data = [
         {
           type: '课程实体',
-          value: 8,
+          value: 20,
         },
         {
           type: '概念实体',
-          value: 122,
+          value: 326,
         },
         {
           type: '操作实体',
-          value: 374,
+          value: 1247,
         },
         {
           type: '方法实体',
-          value: 785,
+          value: 2758,
         },
       ];
       const config = {
@@ -93,7 +93,7 @@ class Statistic extends React.Component {
                   hoverable
                   statistic={{
                     title: '实体总数',
-                    value: '1289',
+                    value: '4351',
                     icon: (
                       <img
                         style={imgStyle}
@@ -122,7 +122,7 @@ class Statistic extends React.Component {
                   hoverable
                   statistic={{
                     title: '属性总数',
-                    value: '2056',
+                    value: '5032',
                     icon: (
                       <img
                         style={imgStyle}
@@ -146,7 +146,7 @@ class Statistic extends React.Component {
                   hoverable
                   statistic={{
                     title: '课程实体',
-                    value: '8',
+                    value: '20',
                     icon: (
                       <img
                         style={imgStyle}
@@ -161,7 +161,7 @@ class Statistic extends React.Component {
                   hoverable
                   statistic={{
                     title: '概念实体',
-                    value: '122',
+                    value: '326',
                     icon: (
                       <img
                         style={imgStyle}
@@ -175,7 +175,7 @@ class Statistic extends React.Component {
                   hoverable
                   statistic={{
                     title: '操作实体',
-                    value: '374',
+                    value: '1247',
                     icon: (
                       <img
                         style={imgStyle}
@@ -189,7 +189,7 @@ class Statistic extends React.Component {
                   hoverable
                   statistic={{
                     title: '方法实体',
-                    value: '785',
+                    value: '2758',
                     icon: (
                       <img
                         style={imgStyle}

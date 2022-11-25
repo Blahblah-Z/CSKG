@@ -99,7 +99,11 @@ class Chat extends React.Component {
             '\n\r' +
             '您可以参考以下链接：';
         } else {
-          str = '对不起，小助手也没有查到答案，我会继续学习的！';
+          str = '对不起，小助手也没有查到答案，我会继续学习的！' 
+          + '\n\r' 
+          + '但是我们为你找到了相关知识点【指令】，您可以参考这个链接：' 
+          + '\n\r' 
+          link = "https://baike.baidu.com/item/%E6%8C%87%E4%BB%A4/3225201?fr=aladdin"
         }
         item = {
           type: 'system',
@@ -109,6 +113,7 @@ class Chat extends React.Component {
           content: str,
           link: link,
         };
+
         this.setState({
           data: [...this.state.data, item],
           value: '',
@@ -129,7 +134,7 @@ class Chat extends React.Component {
 
   render() {
     return (
-      <ProCard split={this.state.responsive ? 'horizontal' : 'vertical'}>
+      <ProCard split={this.state.responsive ? 'horizontal' : 'vertical'} colSpan="50%">
         <ProCard className="chatbox" bordered>
           <div
             className="chatlist"
@@ -149,7 +154,7 @@ class Chat extends React.Component {
                   />
                   <div className={item.type}>
                     {item.content}
-                    <a herf={item.link}>{item.link}</a>
+                    <a href={item.link}>{item.link}</a>
                   </div>
                 </List.Item>
               )}
