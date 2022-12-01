@@ -1,5 +1,5 @@
 
-## 前端框架
+# 框架
 
 node v16.15.1 + react v17 + umi v3 
 
@@ -9,8 +9,21 @@ ant-design + ant-design procomponents + antd-charts
 1. 使用less书写样式
 2. 采用es6语法
 
+## 参考文档
+
+[umi](https://v3.umijs.org/zh-CN/docs)
+
+[react](https://react.docschina.org/docs/getting-started.html)
+
+[Ant-Design](https://ant.design/components/overview-cn/)
+
+[Ant-Design Pro](https://procomponents.ant.design/)
+
+[D3.js](https://github.com/d3/d3/wiki/)
+
 [package.json](./package.json) 查看依赖包
 
+``` json
   "dependencies": {
     "@ant-design/charts": "^1.4.2",
     "@ant-design/pro-card": "^2.0.10",
@@ -21,6 +34,7 @@ ant-design + ant-design procomponents + antd-charts
     "react-dom": "17.x",
     "umi": "^3.5.34"
   },
+```
 
 # umi project
 
