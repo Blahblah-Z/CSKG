@@ -101,9 +101,9 @@ class Chat extends React.Component {
         } else {
           str = '对不起，小助手也没有查到答案，我会继续学习的！' 
           + '\n\r' 
-          + '但是我们为你找到了相关知识点【指令】，您可以参考这个链接：' 
-          + '\n\r' 
-          link = "https://baike.baidu.com/item/%E6%8C%87%E4%BB%A4/3225201?fr=aladdin"
+          // + '但是我们为你找到了相关知识点【指令】，您可以参考这个链接：' 
+          // + '\n\r' 
+          // link = "https://baike.baidu.com/item/%E6%8C%87%E4%BB%A4/3225201?fr=aladdin"
         }
         item = {
           type: 'system',
