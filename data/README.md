@@ -31,4 +31,3 @@ neo4j.bat在安装路径bin文件夹下
 2022-12-02 01:29:30.012+0000 INFO  Remote interface available at http://localhost:7474/
 ```
 可登录 http://localhost:7474/ 进入Neo4j管理界面
-
