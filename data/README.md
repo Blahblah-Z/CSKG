@@ -10,7 +10,10 @@ Neo4j数据库操作请查看[官方文档](https://neo4j.com/docs/)
 ## 数据库导入
 
 
-### 1 将cskg.db.dump文件放入 Neo4j安装路径下 **/data/database**
+### 1 加载cskg.db.dump
+```bash
+./bin/neo4j-admin.bat load --from=/data/cskg.db.dump --database=cskg.db --force 
+```
 ### 2 Neo4j安装路径下 修改配置文件 **/conf/neo4j.conf**
 ```python
 # The name of the database to mount
